@@ -1,0 +1,17 @@
+{
+  "name": "energy_ui_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --config=tests/playwright.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.30.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.30.0"
+  }
+}
